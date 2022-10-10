@@ -37,7 +37,7 @@ Be a smart user and good luck!
             body: `Gweh Bilek`,
             description: `Negro Banyak Bicara`,
             mediaType: 2,
-          thumbnail: await (await fetch('https://telegra.ph/file/b412e4dd6391692d975d3.jpg')).buffer(),
+          thumbnail: await (await fetch('https://i.postimg.cc/XJwXB2QW/fek.jpg')).buffer(),
          mediaUrl: `https://www.instagram.com/inizenscuy/`
         }
      }
