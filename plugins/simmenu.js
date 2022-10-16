@@ -99,7 +99,7 @@ const fkgif = {
 		"extendedTextMessage": {
                  "text":`Andromeda MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  "title": `Andromeda MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
+                 'jpegThumbnail': await (await fetch('https://i.postimg.cc/FHRp69GH/b8687d8c55f8699179a768833c2a4006.jpg')).buffer()
                         }
 	                  } 
                      }
