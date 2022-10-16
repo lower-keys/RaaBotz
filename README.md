@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://telegra.ph/file/b88ff90238fc02a160f3e.jpg" width="50%" height="50%" alt="Relldev"/>
+    <img src="https://i.postimg.cc/XJwXB2QW/fek.jpg" width="50%" height="50%" alt="Relldev"/>
     <br>
-    <a href="https://github.com/RaaaGH"><img title="Created by" src="https://img.shields.io/badge/Creator-RaaBotz San-green?style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/lower-keys"><img title="Created by" src="https://img.shields.io/badge/Creator-RaaBotz San-green?style=for-the-badge&logo=github"></a>
 </p>
 
-# RECODE BY CLARAA
+# RECODE BY Dimxzz
 
 Simple WhatsApp Bot
 
