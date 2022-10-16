@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://i.postimg.cc/XJwXB2QW/fek.jpg" width="50%" height="50%" alt="Relldev"/>
     <br>
-    <a href="https://github.com/lower-keys"><img title="Created by" src="https://img.shields.io/badge/Creator-RaaBotz San-green?style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/lower-keys"><img title="Created by" src="https://img.shields.io/badge/Creator-Dimx xz-green?style=for-the-badge&logo=github"></a>
 </p>
 
 # RECODE BY Dimxzz
