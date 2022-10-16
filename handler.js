@@ -28,7 +28,7 @@ module.exports = {
         global.fake = global.fake
         global.fkontak = global.fkontak
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
-        global.img = 'https://i.postimg.cc/XJwXB2QW/fek.jpg'
+        global.img = 'https://telegra.ph/file/dffdaf0e8d59ad104e526.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
         global.packname = 'Andromeda'
@@ -656,7 +656,23 @@ module.exports = {
                      } 
                  }
                 break
-
+case 'sticker': case 's': case 'stickergif': case 'sgif': {
+            if (!quoted) throw `*Balas Video/Image Dengan Caption* ${prefix + command}`
+            m.reply(mess.wait)
+                    if (/image/.test(mime)) {
+                let media = await quoted.download()
+                let encmedia = await conn.sendImageAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else if (/video/.test(mime)) {
+                if ((quoted.msg || quoted).seconds > 11) return m.reply('*Maksimal 10 detik!*')
+                let media = await quoted.download()
+                let encmedia = await conn.sendVideoAsSticker(m.chat, media, m, { packname: global.packname, author: global.author })
+                await fs.unlinkSync(encmedia)
+            } else {
+                throw `*Kirim Gambar/Video Dengan Caption* ${prefix + command}\nDurasi *Video 1-9 Detik*`
+                }
+            }
+            break
             case 'promote':
                 text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
             case 'demote':
@@ -789,6 +805,12 @@ function clockString(ms) {
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
+
+global.takina = [ 
+'https://i.postimg.cc/8zCXVkyY/ce6ffeea35742410166301aede74af0d.jpg',
+'https://i.postimg.cc/g01ZNptQ/2581c5803ef77dfad121830c07873129.jpg',
+'https://i.postimg.cc/GmQBvddb/3db17e4c76671353a6896ff4ad6b5eb8.jpg'
+]
 
 global.thumb = 'https://telegra.ph/file/61f2d6d9694b49a2ce7aa.jpg'
 
